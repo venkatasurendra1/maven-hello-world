@@ -7,11 +7,11 @@
   <version>1.1</version>
 	<build>
 	<cmd>
-                        <shell>
-                            java -jar /maven/${project.artifactId}-${version.number}.jar
-                        </shell>
-                    </cmd>
-		</build>
+            <shell>
+                java -jar /maven/${project.artifactId}-${version.number}.jar
+            </shell>
+        </cmd>
+    </build>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
 
